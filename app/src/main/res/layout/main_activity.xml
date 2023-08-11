@@ -38,7 +38,7 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/AlbumButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -49,7 +49,7 @@
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/AddButton"
             android:layout_width="10dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -60,7 +60,7 @@
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/Lyricsbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -69,5 +69,8 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="#CECECE"
             android:textSize="20sp" />
+
+
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
