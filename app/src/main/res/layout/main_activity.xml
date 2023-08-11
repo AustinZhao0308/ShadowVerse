@@ -7,6 +7,7 @@
     android:background="#2F2F2F">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="#161616"
@@ -27,5 +28,46 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:text="Album"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#CECECE"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:text="+"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#CECECE"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:text="Lyrics"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#CECECE"
+            android:textSize="20sp" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
